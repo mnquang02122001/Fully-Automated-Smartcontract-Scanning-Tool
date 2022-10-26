@@ -1,16 +1,21 @@
 import React from 'react';
 import { GoogleLogin } from '@react-oauth/google';
+import { useNavigate } from 'react-router-dom';
 const GoogleLoginButton = () => {
-  //center the button
+  const navigate = useNavigate();
+  const handleSuccess = (response) => {
+    // JWT token from Google
+    // Call backend API to update user info
+    localStorage.setItem('token', response.credential);
+    navigate('/homepage');
+  };
+  const handleFailure = () => {
+    alert('Login failed');
+  };
   return (
     <GoogleLogin
-      onSuccess={(credentialResponse) => {
-        console.log(credentialResponse); // JWT token
-        localStorage.setItem('token', credentialResponse.credential);
-      }}
-      onError={() => {
-        alert('Login failed');
-      }}
+      onSuccess={handleSuccess}
+      onError={handleFailure}
       type="icon"
       shape="circle"
     />
