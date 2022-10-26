@@ -1,2 +1,3 @@
-# Fully-Automated-Smartcontract-Scanning-Tool
-UET Dissertation 
+# Fully-Automated-Smart contract-Scanning-Tool
+
+UET Dissertation
