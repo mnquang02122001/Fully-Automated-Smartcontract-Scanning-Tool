@@ -14,6 +14,7 @@ import GoogleLoginButton from '../components/GoogleLoginButton';
 import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
 import { useNavigate, Link } from 'react-router-dom';
+import logo from '../assets/images/logo.png';
 const LoginPage = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -59,12 +60,15 @@ const LoginPage = () => {
             <form onSubmit={handleSubmit}>
               <MDBCardBody className="p-5 w-100 d-flex flex-column">
                 <h2 className="fw-bold mb-2 text-center">Sign in</h2>
-                <MDBIcon
-                  fas
-                  icon="crow fa-2x"
-                  style={{ color: '#709085' }}
-                  className="mx-auto mb-3 mt-1"
-                />
+                <div className="d-flex justify-content-center py-3">
+                  <img
+                    src={logo}
+                    height="45"
+                    width="45"
+                    alt="Logo"
+                    loading="lazy"
+                  />
+                </div>
                 <MDBInput
                   wrapperClass="mb-4 w-100"
                   label="Email address"

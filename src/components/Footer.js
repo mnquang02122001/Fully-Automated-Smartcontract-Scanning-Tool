@@ -59,7 +59,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link to="/homepage" className="text-reset">
-                  Token scan
+                  Scam detection
                 </Link>
               </p>
               <p>
@@ -83,7 +83,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link to="/homepage" className="text-reset">
-                  Services
+                  Pricing
                 </Link>
               </p>
               <p>
@@ -127,7 +127,7 @@ const Footer = () => {
             e.preventDefault();
           }}
         >
-          <MDBRow>
+          <MDBRow id="manual-audit">
             <MDBCol size="auto" className="mb-4 mb-md-0">
               <p className="pt-2">
                 <strong>Request for manual audit</strong>
