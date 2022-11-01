@@ -53,9 +53,9 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Products</h6>
               <p>
-                <Link to="/homepage" className="text-reset">
+                <a href="#scan" className="text-reset">
                   Security scan
-                </Link>
+                </a>
               </p>
               <p>
                 <Link to="/homepage" className="text-reset">
@@ -63,9 +63,9 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to="/homepage" className="text-reset">
+                <a href="#manual-audit" className="text-reset">
                   Manual audit
-                </Link>
+                </a>
               </p>
               <p>
                 <Link to="/homepage" className="text-reset">
@@ -77,9 +77,9 @@ const Footer = () => {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <Link to="/homepage" className="text-reset">
-                  Features
-                </Link>
+                <a href="#market-cap" className="text-reset">
+                  Market cap
+                </a>
               </p>
               <p>
                 <Link to="/homepage" className="text-reset">
@@ -87,14 +87,14 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to="/homepage" className="text-reset">
-                  About
-                </Link>
+                <a href="#about" className="text-reset">
+                  About us
+                </a>
               </p>
               <p>
-                <Link to="/homepage" className="text-reset">
+                <a href="#help" className="text-reset">
                   Help
-                </Link>
+                </a>
               </p>
             </MDBCol>
 
@@ -128,7 +128,7 @@ const Footer = () => {
           }}
         >
           <MDBRow id="manual-audit">
-            <MDBCol size="auto" className="mb-4 mb-md-0">
+            <MDBCol size="auto" className=" mb-md-0">
               <p className="pt-2">
                 <strong>Request for manual audit</strong>
               </p>

@@ -15,7 +15,7 @@ import {
   MDBDropdownLink,
   MDBDropdown,
 } from 'mdb-react-ui-kit';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
 const NavBar = () => {
   // Get from local storage
@@ -30,12 +30,10 @@ const NavBar = () => {
   return (
     <MDBNavbar expand="md" light bgColor="light" className="py-3">
       <MDBContainer fluid>
-        <Link to="/homepage">
-          <MDBNavbarBrand className="h1 mb-0 py-0">
-            <img src={logo} height="45" alt="Logo" loading="lazy" />
-            <span className="text-lg">CrowChain</span>
-          </MDBNavbarBrand>
-        </Link>
+        <MDBNavbarBrand className="h1 mb-0 py-0" href="/homepage">
+          <img src={logo} height="45" alt="Logo" loading="lazy" />
+          <span className="text-lg">CrowChain</span>
+        </MDBNavbarBrand>
         <MDBNavbarToggler
           type="button"
           data-target="#navbarSupportedContent"
@@ -53,34 +51,31 @@ const NavBar = () => {
             className="mb-2 mb-lg-0 align-items-md-center"
           >
             <MDBNavbarItem>
-              <Link to="/homepage">
-                <MDBNavbarLink aria-current="page" className="pe-4 ">
-                  Scan
-                </MDBNavbarLink>
-              </Link>
+              <MDBNavbarLink aria-current="page" className="pe-4" href="#scan">
+                Scan
+              </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              {/* <Link to="#manual-audit"> */}
-              <a href="#manual-audit">
-                <MDBNavbarLink className="pe-4">Manual audit</MDBNavbarLink>
-              </a>
-              {/* </Link> */}
+              <MDBNavbarLink className="pe-4" href="#manual-audit">
+                Manual audit
+              </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <Link to="/homepage">
-                <MDBNavbarLink className="pe-4">Features</MDBNavbarLink>
-              </Link>
+              <MDBNavbarLink className="pe-4" href="#market-cap">
+                Market cap
+              </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <Link to="/homepage">
-                <MDBNavbarLink className="pe-4">Pricing</MDBNavbarLink>
-              </Link>
+              <MDBNavbarLink className="pe-4" href="#help">
+                Help
+              </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <Link to="/homepage">
-                <MDBNavbarLink className="pe-5">About</MDBNavbarLink>
-              </Link>
+              <MDBNavbarLink className="pe-5" href="#about">
+                About
+              </MDBNavbarLink>
             </MDBNavbarItem>
+            {/* Avatar */}
             <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle
@@ -111,6 +106,7 @@ const NavBar = () => {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
+            {/* Avatar */}
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>

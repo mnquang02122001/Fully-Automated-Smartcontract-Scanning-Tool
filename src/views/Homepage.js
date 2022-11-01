@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import Main from '../components/Main';
+import Footer from '../components/Footer';
 const Homepage = () => {
   return (
     <>
@@ -9,6 +10,9 @@ const Homepage = () => {
         <NavBar />
         <Hero />
       </header>
+      <main>
+        <Main />
+      </main>
       <Footer />
     </>
   );
