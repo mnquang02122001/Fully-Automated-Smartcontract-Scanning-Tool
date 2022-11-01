@@ -8,7 +8,6 @@ import {
   MDBCardBody,
   MDBInput,
   MDBCheckbox,
-  MDBIcon,
 } from 'mdb-react-ui-kit';
 import GoogleLoginButton from '../components/GoogleLoginButton';
 import Alert from 'react-bootstrap/Alert';

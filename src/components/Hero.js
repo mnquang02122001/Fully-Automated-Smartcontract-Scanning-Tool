@@ -5,8 +5,8 @@ import '../index.css';
 const Header = () => {
   return (
     <div
-      id="intro-example"
-      className="d-flex bg-image md:mb-4 mb-4"
+      id="scan"
+      className="d-flex bg-image mb-5"
       style={{
         backgroundImage: `url(${bgScanImage})`,
         height: '640px',
