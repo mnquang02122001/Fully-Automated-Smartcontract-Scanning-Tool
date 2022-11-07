@@ -1,4 +1,4 @@
-import * as React from 'react';
+import { React, useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -9,8 +9,8 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import TableHeader from './TableHeader';
-import TableToolbar from './TableToolBar';
 import TablePaginationCustom from './TablePaginationCustom';
+import axios from 'axios';
 function createData(
   id,
   name,
@@ -126,10 +126,28 @@ function getBeautyNumber(number, decimals = 2) {
   return parseFloat(number.toFixed(decimals)).toLocaleString();
 }
 export default function CoinTable() {
-  const [order, setOrder] = React.useState('asc');
-  const [orderBy, setOrderBy] = React.useState('price');
-  const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [order, setOrder] = useState('asc');
+  const [orderBy, setOrderBy] = useState('price');
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
+  useEffect(() => {
+    axios
+      .get(
+        'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+        {
+          headers: {
+            'X-CMC_PRO_API_KEY': process.env.COIN_MARKET_CAP_API_KEY,
+          },
+        }
+      )
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';
     setOrder(isAsc ? 'desc' : 'asc');
@@ -155,7 +173,7 @@ export default function CoinTable() {
         className="my-4"
         id="market-cap"
       >
-        Coin market data
+        Coin market
       </h1>
       <Box sx={{ width: '100%' }}>
         <Paper sx={{ width: '100%', mb: 2 }}>
