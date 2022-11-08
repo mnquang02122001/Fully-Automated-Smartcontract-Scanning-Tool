@@ -43,7 +43,7 @@ const ScanInput = () => {
         aria-label="Default select example"
         className="py-3 shadow-none"
         style={{
-          width: '140px',
+          width: '50%',
           borderRadius: '10px 0 0 10px',
         }}
         value={network}

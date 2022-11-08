@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router-dom';
 const GoogleLoginButton = () => {
   const navigate = useNavigate();
   const handleSuccess = (response) => {
-    // JWT token from Google
-    // Call backend API to update user info
     localStorage.setItem('token', response.credential);
     navigate('/homepage');
   };

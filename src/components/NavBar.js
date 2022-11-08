@@ -17,10 +17,7 @@ import {
 } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
-const NavBar = () => {
-  // Get from local storage
-  const avatarLink =
-    'https://lh3.googleusercontent.com/a/ALm5wu1j6ie33xs4tsjaOHe0yQRT3iXeAcoEx2bSADFW=s96-c';
+const NavBar = ({ user }) => {
   const [showNav, setShowNav] = useState(false);
   const navigate = useNavigate();
   const handleLogout = () => {
@@ -83,12 +80,16 @@ const NavBar = () => {
                   className="nav-link d-flex align-items-center"
                 >
                   <img
-                    src={avatarLink}
+                    src={user.picture}
                     className="rounded-circle"
                     height="35"
                     alt="Avatar"
                     loading="lazy"
+                    style={{ cursor: 'pointer' }}
                   />
+                  <span className="ms-1" style={{ cursor: 'pointer' }}>
+                    {user.name}
+                  </span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem>

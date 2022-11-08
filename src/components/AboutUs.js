@@ -16,7 +16,7 @@ const AboutUs = () => {
       </h1>
       <Row className="mb-5">
         <Col md="6">
-          <img src={homeImage1} alt="homeImage1" />
+          <img src={homeImage1} alt="homeImage1" className="img-fluid" />
         </Col>
         <Col className="d-flex flex-column justify-content-center">
           <h2 className="fw-semibold">Fully automated scanner</h2>
@@ -38,12 +38,12 @@ const AboutUs = () => {
           </p>
         </Col>
         <Col md="6">
-          <img src={homeImage2} alt="homeImage2" />
+          <img src={homeImage2} alt="homeImage2" className="img-fluid" />
         </Col>
       </Row>
       <Row className="mb-5">
         <Col md="6">
-          <img src={homeImage3} alt="homeImage3" />
+          <img src={homeImage3} alt="homeImage3" className="img-fluid" />
         </Col>
         <Col className="d-flex flex-column justify-content-center">
           <h2 className="fw-semibold">Detailed analysis report</h2>
