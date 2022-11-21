@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import NavBar from '../components/NavBar';
-import Hero from '../components/Hero';
-import Main from '../components/Main';
 import Footer from '../components/Footer';
 import jwt_decode from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
-const Homepage = () => {
+const ScanResult = () => {
   const [user, setUser] = useState({});
   const navigate = useNavigate();
   useEffect(() => {
@@ -20,19 +18,17 @@ const Homepage = () => {
     } else {
       navigate('/');
     }
+    if (!localStorage.getItem('scanInfo')) {
+      navigate('/homepage');
+    }
   }, []);
   return (
     <>
-      <header>
-        <NavBar user={user} />
-        <Hero />
-      </header>
-      <main>
-        <Main />
-      </main>
+      <NavBar user={user} />
+      <div>ScanResult</div>
       <Footer />
     </>
   );
 };
 
-export default Homepage;
+export default ScanResult;

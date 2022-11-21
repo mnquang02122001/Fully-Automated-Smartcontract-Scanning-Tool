@@ -53,7 +53,7 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Products</h6>
               <p>
-                <a href="#scan" className="text-reset">
+                <a href="/homepage#scan" className="text-reset">
                   Security scan
                 </a>
               </p>
@@ -63,7 +63,7 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <a href="#manual-audit" className="text-reset">
+                <a href="/homepage#manual-audit" className="text-reset">
                   Manual audit
                 </a>
               </p>
@@ -77,7 +77,7 @@ const Footer = () => {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <a href="#market-cap" className="text-reset">
+                <a href="/homepage#market-cap" className="text-reset">
                   Market cap
                 </a>
               </p>
@@ -87,12 +87,12 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <a href="#about" className="text-reset">
+                <a href="/homepage#about" className="text-reset">
                   About us
                 </a>
               </p>
               <p>
-                <a href="#help" className="text-reset">
+                <a href="/homepage#help" className="text-reset">
                   Help
                 </a>
               </p>
