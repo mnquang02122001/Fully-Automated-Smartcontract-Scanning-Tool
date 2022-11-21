@@ -130,23 +130,23 @@ export default function CoinTable() {
   const [orderBy, setOrderBy] = useState('price');
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
-  useEffect(() => {
-    axios
-      .get(
-        'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
-        {
-          headers: {
-            'X-CMC_PRO_API_KEY': process.env.COIN_MARKET_CAP_API_KEY,
-          },
-        }
-      )
-      .then((res) => {
-        console.log(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+  //       {
+  //         headers: {
+  //           'X-CMC_PRO_API_KEY': process.env.COIN_MARKET_CAP_API_KEY,
+  //         },
+  //       }
+  //     )
+  //     .then((res) => {
+  //       console.log(res.data);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // }, []);
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';

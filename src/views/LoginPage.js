@@ -10,11 +10,23 @@ import {
   MDBCheckbox,
 } from 'mdb-react-ui-kit';
 import GoogleLoginButton from '../components/GoogleLoginButton';
-import Alert from 'react-bootstrap/Alert';
 import Spinner from 'react-bootstrap/Spinner';
+import MyToast from '../components/MyToast';
 import { useNavigate, Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
+
 const LoginPage = () => {
+  const [showToast, setShowToast] = useState({
+    open: false,
+    vertical: 'top',
+    horizontal: 'right',
+  });
+  const handleShowToast = (newShowToast) => {
+    setShowToast({ open: true, ...newShowToast });
+  };
+  const handleCloseToast = () => {
+    setShowToast({ ...showToast, open: false });
+  };
   const navigate = useNavigate();
   useEffect(() => {
     if (localStorage.getItem('token')) {
@@ -25,7 +37,7 @@ const LoginPage = () => {
   }, []);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loading, setLoading] = useState(false);
+  //const [loading, setLoading] = useState(false);
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
@@ -36,7 +48,8 @@ const LoginPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    handleShowToast({ vertical: 'top', horizontal: 'right' });
+    //setLoading(true);
     // Call backend API to check if user exists
     // After call API set loading to false
     //navigate('/homepage');
@@ -102,16 +115,12 @@ const LoginPage = () => {
                   <span>Not a member?</span>
                   <Link to="/"> Register</Link>
                 </div>
-                {/* {loginStatus === 'failure' && (
-                  <Alert variant="danger" className="text-center mb-0">
-                    Invalid email or password! Please try again.
-                  </Alert>
-                )} */}
-                {loading && (
+
+                {/* {loading && (
                   <div className="d-flex justify-content-center align-items-center">
                     <Spinner animation="border" variant="primary" />
                   </div>
-                )}
+                )} */}
                 <hr className="mb-3" />
                 <MDBCol className="d-flex justify-content-center align-items-center">
                   <p className="text-center my-0 mx-2">Or login with</p>
@@ -122,6 +131,11 @@ const LoginPage = () => {
           </MDBCard>
         </MDBCol>
       </MDBRow>
+      <MyToast
+        {...showToast}
+        handleClose={handleCloseToast}
+        message="Invalid email or password"
+      />
     </MDBContainer>
   );
 };

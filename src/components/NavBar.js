@@ -21,7 +21,7 @@ const NavBar = ({ user }) => {
   const [showNav, setShowNav] = useState(false);
   const navigate = useNavigate();
   const handleLogout = () => {
-    localStorage.removeItem('token');
+    localStorage.clear();
     navigate('/');
   };
   return (
@@ -48,27 +48,31 @@ const NavBar = ({ user }) => {
             className="mb-2 mb-lg-0 align-items-md-center"
           >
             <MDBNavbarItem>
-              <MDBNavbarLink aria-current="page" className="pe-4" href="#scan">
+              <MDBNavbarLink
+                aria-current="page"
+                className="pe-4"
+                href="/homepage#scan"
+              >
                 Scan
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink className="pe-4" href="#manual-audit">
+              <MDBNavbarLink className="pe-4" href="/homepage#manual-audit">
                 Manual audit
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink className="pe-4" href="#market-cap">
+              <MDBNavbarLink className="pe-4" href="/homepage#market-cap">
                 Market cap
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink className="pe-4" href="#help">
+              <MDBNavbarLink className="pe-4" href="/homepage#help">
                 Help
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink className="pe-5" href="#about">
+              <MDBNavbarLink className="pe-5" href="/homepage#about">
                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -87,16 +91,23 @@ const NavBar = ({ user }) => {
                     loading="lazy"
                     style={{ cursor: 'pointer' }}
                   />
-                  <span className="ms-1" style={{ cursor: 'pointer' }}>
+                  <span
+                    className="ms-1 text-dark"
+                    style={{ cursor: 'pointer' }}
+                  >
                     {user.name}
                   </span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem>
-                    <MDBDropdownLink>Home page</MDBDropdownLink>
+                    <MDBDropdownLink href="/homepage">
+                      Home page
+                    </MDBDropdownLink>
                   </MDBDropdownItem>
                   <MDBDropdownItem>
-                    <MDBDropdownLink>User profile</MDBDropdownLink>
+                    <MDBDropdownLink href="/homepage">
+                      User profile
+                    </MDBDropdownLink>
                   </MDBDropdownItem>
                   <MDBDropdownItem>
                     <MDBDropdownLink onClick={handleLogout}>
@@ -106,6 +117,16 @@ const NavBar = ({ user }) => {
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
+              {/* <MDBDropdown>
+                <MDBDropdownToggle color="secondary">
+                  Dropdown button
+                </MDBDropdownToggle>
+                <MDBDropdownMenu dark>
+                  <MDBDropdownItem>Action</MDBDropdownItem>
+                  <MDBDropdownItem>Another action</MDBDropdownItem>
+                  <MDBDropdownItem>Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown> */}
             </MDBNavbarItem>
             {/* Avatar */}
           </MDBNavbarNav>

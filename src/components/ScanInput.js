@@ -2,17 +2,22 @@ import React, { useState } from 'react';
 import { MDBSpinner } from 'mdb-react-ui-kit';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import MyToast from '../components/MyToast';
+import MyToast from './MyToast';
 import iconScan from '../assets/images/scan.svg';
+import { useNavigate } from 'react-router-dom';
 const ScanInput = () => {
   const [network, setNetwork] = useState('Ethereum');
   const [address, setAddress] = useState('');
+  const [isSuccess, setIsSuccess] = useState({
+    success: true,
+  });
   const [loading, setLoading] = useState(false);
   const [showToast, setShowToast] = useState({
     open: false,
     vertical: 'top',
     horizontal: 'right',
   });
+  const navigate = useNavigate();
   const handleShowToast = (newShowToast) => {
     setShowToast({ open: true, ...newShowToast });
   };
@@ -32,10 +37,21 @@ const ScanInput = () => {
       setLoading(false);
     }, 2000);
     //call API
-    handleShowToast({ vertical: 'top', horizontal: 'right' });
+    //setIsSuccess({ success: true });
+    if (isSuccess.success) {
+      navigate('/scan-result');
+      localStorage.setItem(
+        'scanInfo',
+        JSON.stringify({
+          network: network,
+          address: address,
+        })
+      );
+    } else {
+      handleShowToast({ vertical: 'top', horizontal: 'right' });
+    }
     setNetwork('Ethereum');
     setAddress('');
-    console.log(network, address);
   };
   return (
     <div className="d-flex lg:w-2/5">
