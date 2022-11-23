@@ -1,7 +1,14 @@
 import React from 'react';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
-const MyToast = ({ vertical, horizontal, open, handleClose, message }) => {
+const MyToast = ({
+  vertical,
+  horizontal,
+  open,
+  handleClose,
+  message,
+  severity,
+}) => {
   return (
     <>
       <Snackbar
@@ -12,7 +19,7 @@ const MyToast = ({ vertical, horizontal, open, handleClose, message }) => {
         message={message}
         key={vertical + horizontal}
       >
-        <Alert onClose={handleClose} severity="error" sx={{ width: '100%' }}>
+        <Alert onClose={handleClose} severity={severity} sx={{ width: '100%' }}>
           {message}
         </Alert>
       </Snackbar>

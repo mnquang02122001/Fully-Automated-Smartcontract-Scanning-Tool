@@ -134,7 +134,8 @@ const LoginPage = () => {
       <MyToast
         {...showToast}
         handleClose={handleCloseToast}
-        message="Invalid email or password"
+        message="Invalid email or password!"
+        severity="error"
       />
     </MDBContainer>
   );

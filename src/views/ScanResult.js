@@ -3,6 +3,9 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import jwt_decode from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import ScanSummary from '../components/ScanSummary';
+import ScanTable from '../components/ScanTable';
 const ScanResult = () => {
   const [user, setUser] = useState({});
   const navigate = useNavigate();
@@ -11,21 +14,27 @@ const ScanResult = () => {
     if (token) {
       const decoded = jwt_decode(token);
       if (!decoded.exp || decoded.exp < Date.now() / 1000) {
-        localStorage.removeItem('token');
+        localStorage.clear();
         navigate('/');
       }
       setUser(decoded);
     } else {
       navigate('/');
     }
-    if (!localStorage.getItem('scanInfo')) {
+    if (
+      !localStorage.getItem('scan_summary') ||
+      !localStorage.getItem('vul_summary')
+    ) {
       navigate('/homepage');
     }
   }, []);
   return (
     <>
       <NavBar user={user} />
-      <div>ScanResult</div>
+      <Container className="my-4 px-4">
+        <ScanSummary />
+        <ScanTable />
+      </Container>
       <Footer />
     </>
   );
