@@ -8,7 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LoginPage />} />
       <Route path="/homepage" element={<Homepage />} />
-      <Route path="scan-result" element={<ScanResult />} />
+      <Route path="/scan-result" element={<ScanResult />} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );

@@ -13,7 +13,7 @@ const Homepage = () => {
     if (token) {
       const decoded = jwt_decode(token);
       if (!decoded.exp || decoded.exp < Date.now() / 1000) {
-        localStorage.removeItem('token');
+        localStorage.clear();
         navigate('/');
       }
       setUser(decoded);

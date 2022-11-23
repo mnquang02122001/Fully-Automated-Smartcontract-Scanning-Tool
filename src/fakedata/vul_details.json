@@ -1,0 +1,17 @@
+{
+  "id": 4805205,
+  "title": "Assembly usage",
+  "severity": "information",
+  "description": "Proxy.fallback() (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#183-217) uses assembly\n\t- INLINE ASM (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#188-201)\n\t- INLINE ASM (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#205-216)\n",
+  "recommendation": "Do not use evm assembly.",
+  "locations": [
+    {
+      "file": "ProxyERC20.sol",
+      "lines": [
+        183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196,
+        197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210,
+        211, 212, 213, 214, 215, 216, 217
+      ]
+    }
+  ]
+}

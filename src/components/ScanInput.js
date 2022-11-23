@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 import MyToast from './MyToast';
 import iconScan from '../assets/images/scan.svg';
 import { useNavigate } from 'react-router-dom';
+import scan_summary from '../fakedata/scan_summary.json';
+import vul_summary from '../fakedata/vul_summary.json';
 const ScanInput = () => {
   const [network, setNetwork] = useState('Ethereum');
   const [address, setAddress] = useState('');
@@ -40,15 +42,12 @@ const ScanInput = () => {
     //setIsSuccess({ success: true });
     if (isSuccess.success) {
       navigate('/scan-result');
-      localStorage.setItem(
-        'scanInfo',
-        JSON.stringify({
-          network: network,
-          address: address,
-        })
-      );
+      localStorage.setItem('scan_summary', JSON.stringify(scan_summary));
+      localStorage.setItem('vul_summary', JSON.stringify(vul_summary));
     } else {
       handleShowToast({ vertical: 'top', horizontal: 'right' });
+      localStorage.removeItem('scan_summary');
+      localStorage.removeItem('vul_summary');
     }
     setNetwork('Ethereum');
     setAddress('');

@@ -1,7 +1,6 @@
 import React from 'react';
 import bgScanImage from '../assets/images/bg-scan.svg';
 import ScanInput from './ScanInput';
-import '../index.css';
 const Header = () => {
   return (
     <div
