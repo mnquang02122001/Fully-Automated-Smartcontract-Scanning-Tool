@@ -117,16 +117,6 @@ const NavBar = ({ user }) => {
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
-              {/* <MDBDropdown>
-                <MDBDropdownToggle color="secondary">
-                  Dropdown button
-                </MDBDropdownToggle>
-                <MDBDropdownMenu dark>
-                  <MDBDropdownItem>Action</MDBDropdownItem>
-                  <MDBDropdownItem>Another action</MDBDropdownItem>
-                  <MDBDropdownItem>Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown> */}
             </MDBNavbarItem>
             {/* Avatar */}
           </MDBNavbarNav>

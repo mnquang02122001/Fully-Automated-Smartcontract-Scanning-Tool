@@ -4,6 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 import { MDBBreadcrumb, MDBBreadcrumbItem, MDBBtn } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 import BadgeModal from '../components/BadgeModal';
+import ExportButton from './ExportButton';
 const ScanSummary = () => {
   const scan_summary = JSON.parse(localStorage.getItem('scan_summary'));
   const [scanSummary, setScanSummary] = useState({
@@ -36,7 +37,7 @@ const ScanSummary = () => {
         </Col>
         <Col md="6" className="d-flex justify-content-md-end">
           <BadgeModal />
-          <MDBBtn className="ms-2">Export Report</MDBBtn>
+          <ExportButton />
         </Col>
       </Row>
     </>

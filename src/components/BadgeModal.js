@@ -29,6 +29,14 @@ export default function BadgeModal() {
   const handleCloseToast = () => {
     setShowToast({ ...showToast, open: false });
   };
+  const handleCopy = () => {
+    navigator.clipboard
+      .writeText(`<a href="http://localhost:3000" target="_blank">
+    <img src="/static/media/badge1.cc2c5499f96eae6c01899bb0f7715c01.svg" alt="Crowchain badge"/>
+</a>`);
+    toggleShow();
+    handleShowToast({ vertical: 'top', horizontal: 'right' });
+  };
   return (
     <>
       <MDBBtn onClick={toggleShow}>Add Badge</MDBBtn>
@@ -55,7 +63,7 @@ export default function BadgeModal() {
               </p>
               <SyntaxHighlighter language="html" style={vs2015}>
                 {`<a href="http://localhost:3000" target="_blank">
-    <img src="badge" alt="Crowchain badge"/>
+    <img src="/static/media/badge1.cc2c5499f96eae6c01899bb0f7715c01.svg" alt="Crowchain badge"/>
 </a>`}
               </SyntaxHighlighter>
             </MDBModalBody>
@@ -63,17 +71,7 @@ export default function BadgeModal() {
               <MDBBtn color="tertiary" onClick={toggleShow}>
                 Cancel
               </MDBBtn>
-              <MDBBtn
-                color="secondary"
-                onClick={() => {
-                  navigator.clipboard
-                    .writeText(`<a href="http://localhost:3000" target="_blank">
-    <img src="badge" alt="Crowchain badge"/>
-</a>`);
-                  toggleShow();
-                  handleShowToast({ vertical: 'top', horizontal: 'right' });
-                }}
-              >
+              <MDBBtn color="secondary" onClick={handleCopy}>
                 Copy
               </MDBBtn>
             </MDBModalFooter>
