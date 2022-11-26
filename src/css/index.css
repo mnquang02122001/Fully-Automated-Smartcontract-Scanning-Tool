@@ -9,6 +9,16 @@ body {
   font-size: 1.5rem;
   line-height: 1.75rem;
 }
+.border-end-first-gray {
+  border-right-color: rgba(229, 231, 235, 1);
+  border-right-style: solid;
+  border-right-width: 1.5px;
+}
+.border-end-second-gray {
+  border-right-color: rgba(229, 231, 235, 1);
+  border-right-style: solid;
+  border-right-width: 1.5px;
+}
 @media (min-width: 1400px) {
   .lg\:text-7xl {
     font-size: 5.5rem;
@@ -47,5 +57,18 @@ body {
   .text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+@media (max-width: 767px) {
+  .border-end-first-gray {
+    border: none;
+  }
+  .border-end-second-gray {
+    border: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .border-end-second-gray {
+    border: none;
   }
 }

@@ -95,7 +95,7 @@ const NavBar = ({ user }) => {
                     className="ms-1 text-dark"
                     style={{ cursor: 'pointer' }}
                   >
-                    {user.name}
+                    {user.name || 'Default User'}
                   </span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>

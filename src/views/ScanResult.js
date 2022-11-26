@@ -8,6 +8,7 @@ import ScanSummary from '../components/ScanSummary';
 import ScanTable from '../components/ScanTable';
 const ScanResult = () => {
   const [user, setUser] = useState({});
+
   const navigate = useNavigate();
   useEffect(() => {
     const token = localStorage.getItem('token');
