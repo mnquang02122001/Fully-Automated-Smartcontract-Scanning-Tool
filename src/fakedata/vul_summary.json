@@ -1,105 +1,122 @@
-{
-  "count": 20,
-  "results": [
-    {
-      "id": 4805205,
-      "title": "Assembly usage",
-      "severity": "high"
-    },
-    {
-      "id": 4805206,
-      "title": "Assembly usage",
-      "severity": "high"
-    },
-    {
-      "id": 4805207,
-      "title": "Assembly usage",
-      "severity": "high"
-    },
-    {
-      "id": 4805209,
-      "title": "Assembly usage",
-      "severity": "medium"
-    },
-    {
-      "id": 4805210,
-      "title": "Assembly usage",
-      "severity": "medium"
-    },
-    {
-      "id": 4805211,
-      "title": "Assembly usage",
-      "severity": "low"
-    },
-    {
-      "id": 4805212,
-      "title": "Assembly usage",
-      "severity": "low"
-    },
-    {
-      "id": 4805213,
-      "title": "Assembly usage",
-      "severity": "low"
-    },
-    {
-      "id": 4805214,
-      "title": "Assembly usage",
-      "severity": "low"
-    },
-    {
-      "id": 4805215,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805216,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805217,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805218,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805219,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805220,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805221,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805222,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805223,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805224,
-      "title": "Assembly usage",
-      "severity": "information"
-    },
-    {
-      "id": 4805225,
-      "title": "Assembly usage",
-      "severity": "critical"
-    }
-  ]
-}
+[
+  {
+    "id": 4805204,
+    "title": "Assembly usage",
+    "severity": "critical",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805205,
+    "title": "Assembly usage",
+    "severity": "high",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805206,
+    "title": "Assembly usage",
+    "severity": "high",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805207,
+    "title": "Assembly usage",
+    "severity": "high",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805209,
+    "title": "Assembly usage",
+    "severity": "medium",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805210,
+    "title": "Assembly usage",
+    "severity": "medium",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805211,
+    "title": "Assembly usage",
+    "severity": "low",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805212,
+    "title": "Assembly usage",
+    "severity": "low",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805213,
+    "title": "Assembly usage",
+    "severity": "low",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805214,
+    "title": "Assembly usage",
+    "severity": "low",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805215,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805216,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805217,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805218,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805219,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805220,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805221,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805222,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805223,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  },
+  {
+    "id": 4805224,
+    "title": "Assembly usage",
+    "severity": "information",
+    "location": "ProxyERC20.sol"
+  }
+]

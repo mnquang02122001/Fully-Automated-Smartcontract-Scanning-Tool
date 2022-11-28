@@ -12,12 +12,12 @@ body {
 .border-end-first-gray {
   border-right-color: rgba(229, 231, 235, 1);
   border-right-style: solid;
-  border-right-width: 1.5px;
+  border-right-width: 3px;
 }
 .border-end-second-gray {
   border-right-color: rgba(229, 231, 235, 1);
   border-right-style: solid;
-  border-right-width: 1.5px;
+  border-right-width: 3px;
 }
 @media (min-width: 1400px) {
   .lg\:text-7xl {

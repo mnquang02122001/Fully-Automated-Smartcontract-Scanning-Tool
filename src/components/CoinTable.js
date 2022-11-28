@@ -10,88 +10,8 @@ import Paper from '@mui/material/Paper';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import TableHeader from './TableHeader';
 import TablePaginationCustom from './TablePaginationCustom';
+import coin_data from '../fakedata/coin_data.json';
 import axios from 'axios';
-function createData(
-  id,
-  name,
-  symbol,
-  price,
-  percent_change_1h,
-  percent_change_24h,
-  percent_change_7d,
-  market_cap,
-  volume_24h
-) {
-  return {
-    id,
-    name,
-    price,
-    symbol,
-    percent_change_1h,
-    percent_change_24h,
-    percent_change_7d,
-    market_cap,
-    volume_24h,
-  };
-}
-
-const rows = [
-  createData(
-    1,
-    'Bitcoin',
-    'BTC',
-    20382.13416764692,
-    -1.52378653,
-    -1.31299634,
-    5.32151105,
-    391222183839.18866,
-    36631176587.557365
-  ),
-  createData(
-    1027,
-    'Ethereum',
-    'ETH',
-    20382.13416764692,
-    -1.52378653,
-    -1.31299634,
-    5.32151105,
-    391222183839.18866,
-    36631176587.557365
-  ),
-  createData(
-    825,
-    'Tether',
-    'USDT',
-    20382.13416764692,
-    -1.52378653,
-    -1.31299634,
-    5.32151105,
-    391222183839.18866,
-    36631176587.557365
-  ),
-  createData(
-    1839,
-    'BNB',
-    'BNB',
-    20382.13416764692,
-    -1.52378653,
-    -1.31299634,
-    5.32151105,
-    391222183839.18866,
-    36631176587.557365
-  ),
-  createData(
-    52,
-    'XRP',
-    'XRP',
-    20382.13416764692,
-    -1.52378653,
-    -1.31299634,
-    5.32151105,
-    391222183839.18866,
-    36631176587.557365
-  ),
-];
 
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
@@ -127,26 +47,28 @@ function getBeautyNumber(number, decimals = 2) {
 }
 export default function CoinTable() {
   const [order, setOrder] = useState('asc');
-  const [orderBy, setOrderBy] = useState('price');
+  const [orderBy, setOrderBy] = useState('');
   const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(5);
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
-  //       {
-  //         headers: {
-  //           'X-CMC_PRO_API_KEY': process.env.COIN_MARKET_CAP_API_KEY,
-  //         },
-  //       }
-  //     )
-  //     .then((res) => {
-  //       console.log(res.data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
+  const [rowsPerPage, setRowsPerPage] = useState(20);
+  const [rows, setRows] = useState([]);
+  useEffect(() => {
+    // axios
+    //   .get(
+    //     'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+    //     {
+    //       headers: {
+    //         'X-CMC_PRO_API_KEY': process.env.COIN_MARKET_CAP_API_KEY,
+    //       },
+    //     }
+    //   )
+    //   .then((res) => {
+    //     console.log(res.data);
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
+    setRows(coin_data);
+  }, []);
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';
