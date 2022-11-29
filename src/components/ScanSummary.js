@@ -52,7 +52,7 @@ const ScanSummary = () => {
           <ExportButton />
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-5">
         <Col lg="4" md="6" className="border-end-first-gray">
           <h5 className="mb-3" style={{ color: 'rgba(156, 163, 175, 1)' }}>
             Overview

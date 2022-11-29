@@ -11,6 +11,7 @@ const ScanResult = () => {
 
   const navigate = useNavigate();
   useEffect(() => {
+    window.scrollTo(0, 0);
     const token = localStorage.getItem('token');
     if (token) {
       const decoded = jwt_decode(token);

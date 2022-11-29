@@ -15,7 +15,7 @@ const ExportButton = () => {
     setShowToast({ ...showToast, open: false });
   };
   const generatePDF = () => {
-    const report = new JsPDF('portrait', 'pt', 'a4');
+    const report = new JsPDF('landscape', 'pt');
     report.html(document.querySelector('#scan-table'), {
       callback: function (pdf) {
         pdf.save('scan-report.pdf');
