@@ -1,0 +1,87 @@
+{
+    "count": 17612,
+    "next": "http://api.safechain.org/v1/contracts/search?page=2&platform_id=ethereum&q=0",
+    "previous": null,
+    "results": [
+        {
+            "address": "0x2037df0add38e407e9fc6f8658399031548cd8b3",
+            "name": "Oasis Network",
+            "symbol": "rose",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0x0810751e573ae4604da96fc0905c1cb73891c5f0",
+            "name": "2202|2022",
+            "symbol": "22022022",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xe7642526f2a61b4d0f4cbeb8d13e825ab7d7ca9b",
+            "name": "&#127760; COSMIC FAMS &#128171;",
+            "symbol": "cf",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xede22cd41cfb0403dca8f7d7deb2482e6fe6e71c",
+            "name": "Ultima 2.0",
+            "symbol": "ultima",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xef50778de71b96995b3eb8bd1e28af05e239e43c",
+            "name": "Funboy 009",
+            "symbol": "009",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xf3a693a352aaa3ed6f68da563404d89a640232f9",
+            "name": "ℑ&#120096;&#120108;&#120107;&#1201...",
+            "symbol": "iofsi",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xbaa08acb754497890026a365a0f1ef933dcd8ff7",
+            "name": "the 40 cities of the wise",
+            "symbol": "wise",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0x47f01c0cf28fbdd04aac79a40a3c8ddf455a0e6a",
+            "name": "DLP_47f01c0c",
+            "symbol": "dlp",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0xe55a2424284a1b23604a5b21d13b235a31773bf4",
+            "name": "no escape",
+            "symbol": "202",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        },
+        {
+            "address": "0x2160bde893566b12a1725cbe5e08084f110f7b23",
+            "name": "AZUKI 5502",
+            "symbol": "a552",
+            "logo": null,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "scanned": true
+        }
+    ]
+}

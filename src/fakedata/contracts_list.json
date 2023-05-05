@@ -1,0 +1,51 @@
+{
+    "status": "success",
+    "message": " Successfully!!",
+    "data": {
+        "count": 2,
+        "results": [
+            {
+                "id": 1,
+                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "name": null,
+                "symbol": null,
+                "website": "",
+                "logo": null,
+                "total_supply": null,
+                "latest_scan_time": "2023-05-04T16:44:05.201Z",
+                "platform": {
+                    "id": "ethereum",
+                    "name": "Ethereum"
+                },
+                "vuln_overview": {
+                    "critical": 1,
+                    "high": 2,
+                    "medium": 15,
+                    "low": 2,
+                    "information": 28
+                }
+            },
+            {
+                "id": 2,
+                "address": "0xbcbb6b2310c6a2e10850b70d8aec6340cccf3a5e",
+                "name": null,
+                "symbol": null,
+                "website": "",
+                "logo": null,
+                "total_supply": null,
+                "latest_scan_time": "2023-05-04T16:50:38.280Z",
+                "platform": {
+                    "id": "ethereum",
+                    "name": "Ethereum"
+                },
+                "vuln_overview": {
+                    "critical": 19,
+                    "high": 0,
+                    "medium": 2,
+                    "low": 10,
+                    "information": 100
+                }
+            }
+        ]
+    }
+}

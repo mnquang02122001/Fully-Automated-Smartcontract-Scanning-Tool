@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "address": "0x8e1ed86c27e1861d044c27b66574d6a0249a3c1c",
+  "name": "Synth sBTC",
+  "symbol": "SBTC",
+  "decimals": 18,
+  "totalSupply": 575,
+  "website": "https://www.synthetix.io/",
+  "platform": {
+    "id": "ethereum",
+    "name": "Ethereum"
+  },
+  "scan": {
+    "id": "sc-6999618494732906496",
+    "start_time": 1668839095,
+    "end_time": 1668839655.5757377,
+    "status": "Completed"
+  },
+  "vul_overview": {
+    "critical": 1,
+    "high": 3,
+    "information": 10,
+    "low": 4,
+    "medium": 2
+  }
+}

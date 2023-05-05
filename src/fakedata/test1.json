@@ -1,0 +1,1907 @@
+{
+    "count": 527365,
+    "next": "http://api.safechain.org/v1/contracts/public?page=2&size=100",
+    "previous": null,
+    "results": [
+        {
+            "id": 771908,
+            "address": "0x0946dfabb2c4b468c39c5b613349f9a1b39a7352",
+            "name": "TGN",
+            "symbol": "",
+            "website": "",
+            "logo": null,
+            "total_supply": null,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 1,
+                "low": 0,
+                "information": 32
+            },
+            "latest_scan": 1677167784.1276975,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 771907,
+            "address": "0x258e80d5371fd7ffddfe29e60b366f9fc44844c8",
+            "name": "CanonicalTransactionChain",
+            "symbol": "",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 101
+            },
+            "latest_scan": 1676208807.922154,
+            "platform": { "id": "goerli", "name": "Goerli" },
+            "is_public": true
+        },
+        {
+            "id": 771890,
+            "address": "0xa9776b590bfc2f956711b3419910a5ec1f63153e",
+            "name": "Rune",
+            "symbol": "rune",
+            "website": "https://rune.farm/",
+            "logo": "https://bscscan.com/token/images/runefarm_32.png",
+            "total_supply": 22529.999999,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 1,
+                "low": 6,
+                "information": 40
+            },
+            "latest_scan": 1675830849.1024137,
+            "platform": { "id": "bsc", "name": "BSC" },
+            "is_public": true
+        },
+        {
+            "id": 771889,
+            "address": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+            "name": "Matic Token",
+            "symbol": "matic",
+            "website": "https://polygon.technology/",
+            "logo": "https://bscscan.com/token/images/matic_32.png",
+            "total_supply": 58999999.994559,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 5,
+                "information": 24
+            },
+            "latest_scan": 1675829907.1184132,
+            "platform": { "id": "bsc", "name": "BSC" },
+            "is_public": true
+        },
+        {
+            "id": 771887,
+            "address": "0x2037df0add38e407e9fc6f8658399031548cd8b3",
+            "name": "Oasis Network",
+            "symbol": "rose",
+            "website": "",
+            "logo": null,
+            "total_supply": 10000000000.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 5,
+                "information": 35
+            },
+            "latest_scan": 1675829669.0832162,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 771888,
+            "address": "0x447483bb62be685c8f5728a0b3788ad9ae4f6d5e",
+            "name": "Beginning",
+            "symbol": "beg",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 2,
+                "information": 22
+            },
+            "latest_scan": 1675829322.8356705,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 771886,
+            "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+            "name": "Binance-Peg XRP Token",
+            "symbol": "xrp",
+            "website": "https://ripple.com/xrp/",
+            "logo": "https://bscscan.com/token/images/xrp_32.png",
+            "total_supply": 277000000.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 2,
+                "information": 12
+            },
+            "latest_scan": 1675828960.8233986,
+            "platform": { "id": "bsc", "name": "BSC" },
+            "is_public": true
+        },
+        {
+            "id": 771885,
+            "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
+            "name": "Binance-Peg Dogecoin Token",
+            "symbol": "doge",
+            "website": "https://dogecoin.com/",
+            "logo": "https://bscscan.com/token/images/dogecoin_32.png",
+            "total_supply": 1429999999.999999,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 5,
+                "information": 24
+            },
+            "latest_scan": 1675828816.0671291,
+            "platform": { "id": "bsc", "name": "BSC" },
+            "is_public": true
+        },
+        {
+            "id": 771883,
+            "address": "0x8277bc2e9a3284529b4c5817255aca0bcff16b1c",
+            "name": "TokenVesting",
+            "symbol": "",
+            "website": "",
+            "logo": null,
+            "total_supply": null,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 2
+            },
+            "latest_scan": 1675050881.1002674,
+            "platform": { "id": "testnet.bsc", "name": "Testnet BSC" },
+            "is_public": true
+        },
+        {
+            "id": 771884,
+            "address": "0x751674ca66d49d9555c2e36ad98717d0e449f31c",
+            "name": "GUC",
+            "symbol": "",
+            "website": "",
+            "logo": null,
+            "total_supply": null,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 2
+            },
+            "latest_scan": 1675050842.5124936,
+            "platform": { "id": "testnet.bsc", "name": "Testnet BSC" },
+            "is_public": true
+        },
+        {
+            "id": 646882,
+            "address": "0x3c2982ca260e870eee70c423818010dfef212659",
+            "name": "ERR",
+            "symbol": "err",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 16,
+                "medium": 40,
+                "low": 146,
+                "information": 465
+            },
+            "latest_scan": 1674803268.895594,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 700961,
+            "address": "0xd5fc6eb4e4b34c6c8f875059e06b69141f8acc7f",
+            "name": "planet",
+            "symbol": "star",
+            "website": "",
+            "logo": null,
+            "total_supply": 100000000.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 4,
+                "low": 4,
+                "information": 16
+            },
+            "latest_scan": 1674786353.5066333,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737103,
+            "address": "0x383895da4cb08bbe18b24e988c740fa7465cc39b",
+            "name": "AAA",
+            "symbol": "aaa",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674786228.3902442,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737415,
+            "address": "0x46705fc350b8394099e458d68285b0a97a40119f",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786204.2473035,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737131,
+            "address": "0x5b86d4b13ee1de37aace23becf803697e6970361",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786159.0842688,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737130,
+            "address": "0x5775179d48ee95b6e072095b3144842dd76e9486",
+            "name": "SushiSwap LP Token",
+            "symbol": "slp",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.1403699767744184,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 11
+            },
+            "latest_scan": 1674786152.8380575,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737127,
+            "address": "0x1366acd7d6cf1789f04169a80c5edc315603ecaa",
+            "name": "Kaito Collection",
+            "symbol": "kaito",
+            "website": "",
+            "logo": null,
+            "total_supply": 3.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786149.3615122,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737096,
+            "address": "0x4c5274620d222542e8e64872536b2eef82f35835",
+            "name": "54305",
+            "symbol": "sankeson",
+            "website": "",
+            "logo": null,
+            "total_supply": 26.28205128205128,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 1,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674786146.8647547,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737076,
+            "address": "0xbccb1c2604f91725bdb34117ef015cdca85db281",
+            "name": "Animated Galaxies",
+            "symbol": "ag",
+            "website": "",
+            "logo": null,
+            "total_supply": 3.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786146.6261706,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737119,
+            "address": "0x3588db068117b574e570bdf2920359288b7d8696",
+            "name": "WILD",
+            "symbol": "photo",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786144.4562125,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737125,
+            "address": "0xb6ae1a1897fabad2cafc97422e4dfa0ab45be9d0",
+            "name": "LaFerrari x Baeza",
+            "symbol": "laf",
+            "website": "",
+            "logo": null,
+            "total_supply": 5.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786139.9096375,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 743638,
+            "address": "0x9abc42efe31711e787a9a312352a59853ad87718",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786133.3381603,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737126,
+            "address": "0xaeacf70b96d65226efad3fe0fb98613a79632e15",
+            "name": "LAO",
+            "symbol": "lao",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 1,
+                "low": 3,
+                "information": 21
+            },
+            "latest_scan": 1674786126.500426,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737092,
+            "address": "0x8c715c68f677c843838bbaf83e20dd3b28346b74",
+            "name": "Portraits Ov Beauties",
+            "symbol": "beauties",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786106.3437524,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737121,
+            "address": "0x79d605fbd3984489a335e8e3a48d20199b647617",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 705.5825042904834,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786095.90732,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737118,
+            "address": "0xec856a2d49d763e232f92234d242d2c3839b29e2",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786086.4747474,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737117,
+            "address": "0x9ed0ff785dfc74a60cec6dd356962f65180c5358",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786086.3608594,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 728745,
+            "address": "0xe065e33d04ad0eebaada629dac0e1d68dd86b9a8",
+            "name": "Mechanical Organics",
+            "symbol": "mecorg",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786082.305055,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737109,
+            "address": "0x69e1920d56dd5feb8bb34729aac316c340eff51c",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786074.923956,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737110,
+            "address": "0x00648423fe342a156e50828abf9c4db6ab05c981",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786069.760178,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737113,
+            "address": "0xc45594d23e35162684457d556238677f96d791cf",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786065.3815665,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737077,
+            "address": "0xf3f416f50ac3073db4580cdd1da473248d25012a",
+            "name": "Pools",
+            "symbol": "pool",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786053.101794,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737098,
+            "address": "0xc8272935795f1059a5431d8108517db7146831b9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786050.4624453,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737090,
+            "address": "0x8835d2d56832766de67a017cb2c2b6d1a35a2cd9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786035.8724365,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737080,
+            "address": "0xfe876eaeaf665578dd2999ec07f985aa16f80de8",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786024.9909852,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 735569,
+            "address": "0xf63d0b86c2c6030715d2d2216cc1f9e891adfaab",
+            "name": "Hitomi Komo",
+            "symbol": "htmkm",
+            "website": "",
+            "logo": null,
+            "total_supply": 3.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674786023.5165083,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737066,
+            "address": "0xd28080b9fc42e80eda86a8647895ba69a76f5d95",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.4142135623730951,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786010.4503036,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737056,
+            "address": "0x16c31069b8dd5d6313ceb0e60a5c5783752a8003",
+            "name": "Mantou",
+            "symbol": "mantou",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 1,
+                "low": 3,
+                "information": 20
+            },
+            "latest_scan": 1674786008.849834,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 737060,
+            "address": "0x84d3edc79cfeee773f0e9ee6c50bbf7862ffba8d",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674786001.5033455,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668037,
+            "address": "0xd5170e69e13aeb29e84a5d28c6f47b2ca0b509b9",
+            "name": "ENSSE",
+            "symbol": "ensse",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785994.1024551,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 705497,
+            "address": "0xf4ccd88989f2e606df05842eb905cd8ea7060395",
+            "name": "Surreal Skulls",
+            "symbol": "skurreal",
+            "website": "",
+            "logo": null,
+            "total_supply": 4.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785975.1234283,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 731380,
+            "address": "0xc655aa1fff19a1aa597713eb16b11c224c021eff",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785973.6148062,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 714966,
+            "address": "0xd35b47c08138e58ba66ba978e4cf5182fb6e91c9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785962.4129925,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 694182,
+            "address": "0xe0ba24e6758fff893ca2e9e546db83b00f8b9cca",
+            "name": "Shadows and Sculptures",
+            "symbol": "ss",
+            "website": "",
+            "logo": null,
+            "total_supply": 60.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785952.6999772,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 708224,
+            "address": "0x304eea4faabdaf9788cea8a55b8458d0cdb7e14c",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785946.618881,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 696114,
+            "address": "0x0823c38e2d7a4f3321569da168fc94d5f5e59fac",
+            "name": "Imaginarium AI – Species",
+            "symbol": "species",
+            "website": "",
+            "logo": null,
+            "total_supply": 8.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785943.4432468,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 698451,
+            "address": "0x595ba90e78504c2ff3138cbc967023b47d82c51c",
+            "name": "The Art of Limzim",
+            "symbol": "limzim02",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785940.67494,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668043,
+            "address": "0xb0d4d5cc78234b26955dd4694c13e4798ae2fc5c",
+            "name": "858eth",
+            "symbol": "8bit",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785938.1157556,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 706343,
+            "address": "0x85052a3e3592886df9bb7b3df90080bf27d591e5",
+            "name": "SushiSwap LP Token",
+            "symbol": "slp",
+            "website": "",
+            "logo": null,
+            "total_supply": 30.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 11
+            },
+            "latest_scan": 1674785936.7965734,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 694760,
+            "address": "0xa5131695c29bff5756277bc6a55b3fe1f6a6b1c9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785934.1710403,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 707317,
+            "address": "0x6f07140829db962d4a5744cb8f428ec3b7543e81",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785930.6787682,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 696651,
+            "address": "0xe46a263a3f6a51da51b0e23a839cd9bc464b5867",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.4,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785929.4734797,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 698534,
+            "address": "0x37611276304d281cfce73f32b0909403d2e4d4a4",
+            "name": "The Sea Moments",
+            "symbol": "sea",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785926.0485408,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 693865,
+            "address": "0x20740a6aa59d5c94cb4c732d9b6131ca096c4f2a",
+            "name": "Caroline&#39;s Day Off",
+            "symbol": "cardayof",
+            "website": "",
+            "logo": null,
+            "total_supply": 7.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785915.6632714,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 701841,
+            "address": "0x4cee33a10e284b990d1b5b245d36bdc8e58034e9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.1832159566199232,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785909.605689,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668056,
+            "address": "0x267e510db682c0ffad0de3474262f96b9bd1e2b1",
+            "name": "ralool",
+            "symbol": "ra",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785900.3897364,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 685540,
+            "address": "0xc63ccc9847afb3d68fc231ecfc70234eec108418",
+            "name": "CryptoVulture",
+            "symbol": "vulture",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785894.701822,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 671751,
+            "address": "0xa0f788f7842f3fb1403f80c71e225f29952458d3",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 54772.25575051661,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785893.1289723,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 676282,
+            "address": "0xad6f1b6cb8ee3d45ed751041115c15bbb68eac7d",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785867.8734083,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 686317,
+            "address": "0x7e64a698fd2530a39077e103878a9794adadb5c5",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785865.7432644,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668051,
+            "address": "0x8608e4e643d5f09080b2aa92b55905a6af6aba8b",
+            "name": "Electric Sky",
+            "symbol": "bolts",
+            "website": "",
+            "logo": null,
+            "total_supply": 5.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785861.3959436,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 675729,
+            "address": "0xb960449c7dfa6e1b3307d049e35ccf3936a36810",
+            "name": "Jewel",
+            "symbol": "jewel",
+            "website": "",
+            "logo": null,
+            "total_supply": 138.76923076923077,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785857.3447676,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 681166,
+            "address": "0xa12249244fbbe4178c09f13f9341fc83ea9cbb33",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.6324555320336759,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785848.5344574,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 678884,
+            "address": "0xf18d8c42c86b2a4f09f3eeffddf31499fcd7689a",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785846.7912114,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668033,
+            "address": "0x1460837af432954fd2c8a89f642d0a6ca49d6828",
+            "name": "The Bizarre Ethereum World",
+            "symbol": "junwoo23",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 11
+            },
+            "latest_scan": 1674785839.5343888,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 655710,
+            "address": "0x46c08260386025c81744101c07397835a53cbd6a",
+            "name": "Super Bomber Boy",
+            "symbol": "sbb",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785832.997046,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 652719,
+            "address": "0x32c0d23ec3e66319961bd4c3bd655155efe762da",
+            "name": "AVCULT 1/1&#39;s&#127988;‍☠️&#127912;&...",
+            "symbol": "avcult",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 11
+            },
+            "latest_scan": 1674785823.6786969,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 665308,
+            "address": "0xd79b56fce3b398c8734bcc6dd0c90dd5252ee285",
+            "name": "Swan Lake",
+            "symbol": "swlk",
+            "website": "",
+            "logo": null,
+            "total_supply": 3.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785816.1442869,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 661894,
+            "address": "0xc6facaf4129478d2dff140bb3a1f97bae9242fd8",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785788.6814985,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 627054,
+            "address": "0x81a92ac3a13147f215a6a60933c6a18ab91de8aa",
+            "name": "great Chief",
+            "symbol": "gc",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785770.0711615,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668009,
+            "address": "0x23d82fea286592b33c5bde343ebbf9a46ad719ab",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1979.5832894829155,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785763.2854328,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 668017,
+            "address": "0xf715d095b4b2a9391a1f9ac8bd2a88393b8943f9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785761.3438182,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 665391,
+            "address": "0x70efb4a13d1686a4618c1de8c76cde411b36e8ff",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785756.7308066,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 664210,
+            "address": "0x71b739ba5ae46e35546a3fc96e5e61b314c92845",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785756.54916,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 651811,
+            "address": "0x32c29b709c800a32c8f1e4a27003cf3008ff95a2",
+            "name": "C-R-E-A-T-E",
+            "symbol": "create",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785750.246756,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 644900,
+            "address": "0x0dadbcee9df087b043b6e7a08e3e9fb4de1a3cd8",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.001000000000001,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785746.957916,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 660337,
+            "address": "0x0c439f63c5be6ba30a7df3e2a5816078b4800168",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785741.3448486,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 599372,
+            "address": "0x842510214a6adc979bb06479ae0967670772847a",
+            "name": "Asana Party &lt;.01 ETH",
+            "symbol": "nifty",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785738.082661,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 655080,
+            "address": "0x8e9dc291495306cead78ece99bf469a278d9a1c9",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785732.4548872,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 634259,
+            "address": "0xb2684da1261eb219f3913f4f0563190deecbb361",
+            "name": "Feline Lordz",
+            "symbol": "007",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785719.4523299,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 632573,
+            "address": "0xd662a1079e0620bdc6dda19882bb1a597df7ff25",
+            "name": "WAR AND FREEDOM",
+            "symbol": "freedom",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785715.966199,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 638401,
+            "address": "0xa167184a20074fcf764709c31d65eea02a7a2db8",
+            "name": "MONSTERS",
+            "symbol": "monsters",
+            "website": "",
+            "logo": null,
+            "total_supply": 5.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785711.3298657,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 644577,
+            "address": "0xf8f3e2c70ebdf0520f60591730ccc39c8d4e4689",
+            "name": "AI Artists The New Breed",
+            "symbol": "ato",
+            "website": "",
+            "logo": null,
+            "total_supply": 17.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785705.6349435,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 648428,
+            "address": "0x6d088e81d437139c7666de53d6dcc16281bb620c",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785686.8348327,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 644801,
+            "address": "0x5e89f058f835217592df72486ea6eb046b6c0761",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 167332.00530681512,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785683.2204792,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 643610,
+            "address": "0x31209107b7b20fe2a2928e33b503a40e730e042e",
+            "name": "StrategyLenderYieldOptimiser",
+            "symbol": "strategylenderyieldoptimiser",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 11,
+                "low": 19,
+                "information": 50
+            },
+            "latest_scan": 1674785681.5941684,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 614460,
+            "address": "0x2acdaadde4fe64f0d9ac9c4e0539d88338416ffa",
+            "name": "Surrealism by Avaze",
+            "symbol": "heaven",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785675.8083868,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 619583,
+            "address": "0xe1c32b183198bd8857e00872edc1a2328a4b64eb",
+            "name": "Pop Psychedelic World.",
+            "symbol": "ppw",
+            "website": "",
+            "logo": null,
+            "total_supply": 2.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785674.179883,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 620019,
+            "address": "0xeedc8d9cb3b55ce5427c6766d44da181fed7fb4a",
+            "name": "Cosmic Labyrinth",
+            "symbol": "cosmic",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785670.7175028,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 640846,
+            "address": "0xb2d64be6a27a076086098fffbefa7b3aae6dd169",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785668.9703352,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 625154,
+            "address": "0x24dbe84505f40352d350db25c88900b12458a856",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 917.0159809760813,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785665.4444485,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 641407,
+            "address": "0xf18f95563c1b7a1db7a53a636a017a4331df0978",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785660.7384238,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 599714,
+            "address": "0x800281f852f7baf2a2fe0275fafe9c6f3cfc9834",
+            "name": "Happy party",
+            "symbol": "hp",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 0,
+                "low": 1,
+                "information": 4
+            },
+            "latest_scan": 1674785640.9969518,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 611789,
+            "address": "0x8c2a692e8ee95621d316988490c20910c45c7ebd",
+            "name": "Soul Shells",
+            "symbol": "ss",
+            "website": "",
+            "logo": null,
+            "total_supply": 5.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785638.4062443,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 623370,
+            "address": "0xe80707811bbdb5631c9cd57c22fb12e917dedd02",
+            "name": "The Luxury of Time",
+            "symbol": "luxury",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785623.6752946,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 620388,
+            "address": "0x299235a257d4207d3ea99a62a0b5c81810dfa51a",
+            "name": "The Body Beautiful",
+            "symbol": "beaut",
+            "website": "",
+            "logo": null,
+            "total_supply": 1.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785622.1488016,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 611160,
+            "address": "0x81bbc91f31a49afc082d1474b54e5d151d550736",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 0.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785616.4388437,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 603624,
+            "address": "0xdfd8ce7245801ccd27c718b03e5effc66927ddbc",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 1e-15,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785606.6003726,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 616663,
+            "address": "0x859d54d4f81980bfe9f48b89224826e6d270e78d",
+            "name": "Uniswap V2",
+            "symbol": "uni-v2",
+            "website": "",
+            "logo": null,
+            "total_supply": 34667.358696745374,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 8,
+                "information": 18
+            },
+            "latest_scan": 1674785604.409822,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        },
+        {
+            "id": 607995,
+            "address": "0x32fe870a2337d65a337645d8146149ff6b03815a",
+            "name": "Retaliation",
+            "symbol": "rtln",
+            "website": "",
+            "logo": null,
+            "total_supply": 3.0,
+            "vuln_overview": {
+                "critical": 0,
+                "high": 0,
+                "medium": 0,
+                "low": 0,
+                "information": 13
+            },
+            "latest_scan": 1674785598.3429081,
+            "platform": { "id": "ethereum", "name": "Ethereum" },
+            "is_public": true
+        }
+    ]
+}
