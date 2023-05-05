@@ -1,17 +1,17 @@
-import React from 'react';
-import CoinTable from './CoinTable';
-import Helper from './Helper';
-import AboutUs from './AboutUs';
+import React from "react";
+import Helper from "./Helper";
+import AboutUs from "./AboutUs";
+import ContractTable from "./ContractTable";
 const Main = () => {
-  return (
-    <>
-      <div className="container">
-        <CoinTable />
-        <Helper />
-        <AboutUs />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className="container">
+                <ContractTable />
+                <Helper />
+                <AboutUs />
+            </div>
+        </>
+    );
 };
 
 export default Main;

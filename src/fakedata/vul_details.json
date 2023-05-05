@@ -1,15 +1,15 @@
 {
-  "id": 4805205,
-  "title": "Assembly usage",
-  "severity": "information",
-  "description": "Proxy.fallback() (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#183-217) uses assembly\n\t- INLINE ASM (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#188-201)\n\t- INLINE ASM (..0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6-ProxyERC20.sol#205-216)\n",
-  "recommendation": "Do not use evm assembly.",
-  "location": {
-    "file": "ProxyERC20.sol",
-    "lines": [
-      183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197,
-      198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212,
-      213, 214, 215, 216, 217
-    ]
-  }
+    "id": 22132582,
+    "title": "Functions that are not used",
+    "severity": "information",
+    "description": "BytesLibrary.startsWith(bytes,bytes4) (..0xef50778de71b96995b3eb8bd1e28af05e239e43c-CollectionContract/contracts/libraries/BytesLibrary.sol#32-44) is never used and should be removed\n",
+    "recommendation": "Remove unused functions.",
+    "locations": [
+        {
+            "file": "CollectionContract/contracts/libraries/BytesLibrary.sol",
+            "lines": [74, 75, 76, 77, 78, 79, 80, 81],
+            "url": "https://safechains.s3.ap-southeast-1.amazonaws.com/smart_contracts/0xef50778de71b96995b3eb8bd1e28af05e239e43c/0xef50778de71b96995b3eb8bd1e28af05e239e43c-CollectionContract/contracts/libraries/BytesLibrary.sol?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ5QG436URYU4WIPW%2F20230325%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20230325T144552Z&X-Amz-Expires=120&X-Amz-SignedHeaders=host&X-Amz-Signature=97f8614cf0cb7a447530c4773c46cb5010e29489837da5c3f4750da1f886e4f6"
+        }
+    ],
+    "vote": { "up": 0, "down": 0 }
 }

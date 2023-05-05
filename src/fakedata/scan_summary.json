@@ -1,26 +1,36 @@
 {
-  "id": 1,
-  "address": "0x8e1ed86c27e1861d044c27b66574d6a0249a3c1c",
-  "name": "Synth sBTC",
-  "symbol": "SBTC",
-  "decimals": 18,
-  "totalSupply": 575,
-  "website": "https://www.synthetix.io/",
-  "platform": {
-    "id": "ethereum",
-    "name": "Ethereum"
-  },
-  "scan": {
-    "id": "sc-6999618494732906496",
-    "start_time": 1668839095,
-    "end_time": 1668839655.5757377,
-    "status": "Completed"
-  },
-  "vul_overview": {
-    "critical": 1,
-    "high": 3,
-    "information": 10,
-    "low": 4,
-    "medium": 2
-  }
+    "id": 771887,
+    "address": "0x2037df0add38e407e9fc6f8658399031548cd8b3",
+    "name": "Oasis Network",
+    "symbol": "rose",
+    "website": "",
+    "logo": null,
+    "total_supply": 10000000000.0,
+    "platform": { "id": "ethereum", "name": "Ethereum" },
+    "vuln_overview": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 5,
+        "information": 35
+    },
+    "is_public": true,
+    "latest_scan": 1675829669.0832162,
+    "decimals": 18,
+    "social_profiles": {
+        "email": null,
+        "blog": null,
+        "reddit": null,
+        "twitter": null,
+        "telegram": null,
+        "github": null,
+        "linkedin": null
+    },
+    "scan": {
+        "id": "sc-7028934949088661504",
+        "start_time": 1675828683.0,
+        "end_time": 1675830194.229007,
+        "status": "completed"
+    },
+    "report": {}
 }
