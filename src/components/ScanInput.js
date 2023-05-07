@@ -18,6 +18,8 @@ const ScanInput = () => {
         open: false,
         vertical: "top",
         horizontal: "right",
+        severity: "success",
+        message: "Scan successfully",
     });
     useEffect(() => {
         const getPlatforms = async () => {
@@ -87,6 +89,12 @@ const ScanInput = () => {
                                 JSON.stringify(vul.data.data)
                             );
                             navigate("/scan-result");
+                            handleShowToast({
+                                vertical: "top",
+                                horizontal: "right",
+                                severity: "success",
+                                message: "Scan successfully",
+                            });
                             clearInterval(interval);
                         }
                     } catch (err) {
@@ -96,14 +104,24 @@ const ScanInput = () => {
                 return () => clearInterval(interval);
             } else {
                 setIsSuccess({ success: false });
-                handleShowToast({ vertical: "top", horizontal: "right" });
+                handleShowToast({
+                    vertical: "top",
+                    horizontal: "right",
+                    severity: "error",
+                    message: "Smart contract is invalid or unavailable!",
+                });
                 localStorage.removeItem("scan_summary");
                 localStorage.removeItem("vul_summary");
             }
         } catch (err) {
             console.log(err);
             setIsSuccess({ success: false });
-            handleShowToast({ vertical: "top", horizontal: "right" });
+            handleShowToast({
+                vertical: "top",
+                horizontal: "right",
+                severity: "error",
+                message: "Smart contract is invalid or unavailable!",
+            });
             localStorage.removeItem("scan_summary");
             localStorage.removeItem("vul_summary");
         }
@@ -153,12 +171,7 @@ const ScanInput = () => {
                     <img src={iconScan} alt="icon-scan" height="25" />
                 )}
             </Button>
-            <MyToast
-                {...showToast}
-                handleClose={handleCloseToast}
-                message="Smart contract is invalid or unavailable!"
-                severity="error"
-            />
+            <MyToast {...showToast} handleClose={handleCloseToast} />
         </div>
     );
 };

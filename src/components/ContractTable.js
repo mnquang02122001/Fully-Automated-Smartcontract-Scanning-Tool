@@ -83,8 +83,10 @@ export default function ContractTable() {
     React.useEffect(() => {
         const getContracts = async () => {
             try {
+                const page = 1;
+                const size = 100;
                 const res = await axios.get(
-                    `${process.env.REACT_APP_SERVER_URL}/api/contract/public/:page/:size`
+                    `${process.env.REACT_APP_SERVER_URL}/api/contract/public/${page}/${size}`
                 );
                 setRows(res.data?.data.results);
             } catch (err) {

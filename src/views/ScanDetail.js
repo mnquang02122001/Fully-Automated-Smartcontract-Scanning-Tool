@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import jwt_decode from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
@@ -16,15 +15,18 @@ const ScanDetail = () => {
     const navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0);
-        const token = localStorage.getItem("token");
-        if (token) {
-            const decoded = jwt_decode(token);
-            if (!decoded.exp || decoded.exp < Date.now() / 1000) {
+        const accessToken = localStorage.getItem("access_token");
+        const refreshToken = localStorage.getItem("refresh_token");
+        const accessTokenExp = localStorage.getItem("access_token_exp");
+        const userToken = localStorage.getItem("user");
+        if (accessToken && accessTokenExp && userToken && refreshToken) {
+            setUser(JSON.parse(userToken));
+            if (accessTokenExp < Date.now() / 1000) {
                 localStorage.clear();
                 navigate("/");
             }
-            setUser(decoded);
         } else {
+            localStorage.clear();
             navigate("/");
         }
         if (
